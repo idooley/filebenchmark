@@ -24,6 +24,7 @@ int main() {
     usleep(1000000);
   }
 
-  std::cout << "max time encountered to write a short file: " << maxTimeMillis << " ms " << std::endl;
+  std::cout << "num iterations: \t" << numIters << std::endl; 
+  std::cout << "max time encountered to open/write/flush/close a short file: \t" << maxTimeMillis << "\t ms " << std::endl;
 
 }
