@@ -1,2 +1,2 @@
 num iterations: 	120
-max time encountered to open/write/flush/close a short file: 	2	 ms 
+max time encountered to open/write/flush/close a short file: 	0	 ms 
