@@ -4,9 +4,7 @@
 #include <unistd.h>
 
 int main() {
-  typedef std::chrono::high_resolution_clock Clock;
   struct timeval start, end;
-
   int numIters = 120;
   
   long maxTimeMillis = 0;
